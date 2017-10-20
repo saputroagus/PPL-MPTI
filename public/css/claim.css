@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:100,400,300|Open+Sans:400,300,600,700);
+body{margin:0;padding:0;background:#C0392B;font-family: 'Oswald'}
+#wrapper{width: 80%;margin: 50px auto}
+h1{font-size: 50px;font-family: 'Oswald';color: rgba(255,255,255,.4);text-transform: uppercase;font-weight: 100}
+h3{font-size: 30px;font-family: 'Oswald';color: rgba(255,255,255,.4);text-transform: uppercase;font-weight: 100}
+h4{font-size: 20px;font-family: 'Oswald';color: rgba(255,255,255,.4);text-transform: uppercase;font-weight: 100}
+#top{width: 100%;height: 40px;background: #2b2b2b;position: fixed;top:0;left: 0}
+#top i {margin-right: 5px;}
+#bottom {width: 100%;height: 30px;background: #2b2b2b;position: fixed;bottom:0;left: 0}
+.claim{margin-top:20px;padding:10px;color:#fff;font-family:'Open Sans';font-size:16px;width: 85%;margin:0px auto;border:0;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;background: rgba(255,255,255,.2);height: auto;}
+.search{background: transparent;color: rgba(255,255,255,.2);padding:5px;font-size: 30px;border:0;}
+input:focus {background: rgba(255,255,255,.05);outline: none;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+input{-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+.search:hover{cursor: pointer;}
+.hasil i {float: right;font-size: 30px;color: #bbb}
+.hasil i:hover{cursor: pointer;color: #fff}
+.nomor{color: rgba(255,255,255,.8);}
+*[title]:before{content:attr(title);position:absolute;z-index:10;width:auto;right:20px;background:#C0392B;color:#ccc;font-size:12px;font-weight:100;text-shadow:none;padding:4px 10px 5px;opacity:1;filter:alpha(opacity=100);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;display:none;text-transform:uppercase}
+*[title]:hover{position:relative}
+*[title]:hover:before{display:block}
+.hasil{width: 90%;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;height: auto;background: rgba(0,0,0,.1);padding: 10px;color: #ccc;font-size: 20px;font-weight: 100;letter-spacing: 0.05em;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+.hasil:hover{background: rgba(0,0,0,.3);cursor: pointer;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+.pilih{width: 90%;height: auto;padding: 20px;background: #2b2b2b;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.simpati{color: rgba(255,255,255,.7);}
+.logo{font-size:20px;font-weight:bold;font-family: 'Oswald';text-transform: uppercase;position: fixed;top:5;left: 15;color:#888;}
+.logo a{color: #888;text-decoration: none;}
+.login{color: #888;float: right;line-height: 40px;font-weight: 100;font-size: 15px;text-transform: uppercase;margin-right: 20px}
+.login i{margin-right: 5px}
+.mdlogin input{border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#ddd;width: 100%;margin-bottom:10px;height: auto;padding:5px;background: #444;border:0;font-size: 14px;font-family: 'Open Sans'}
+.mdlogin input:focus{background: #222}
+.mdlogin input[type=submit] {cursor: pointer;background: #333;text-transform: uppercase;}
+.login:hover{cursor: pointer;}
+.daftar input {border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;width: 100%;height: auto;font-family: 'Open Sans';font-size: 15px;color: #ddd;background: #333;border:0;padding: 5px;margin-bottom: 10px;}
+.daftar input:focus {background: #4d4d4d;outline: none;}
+.daftar button {border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;padding:10px;color:#ccc;border:0;width:100px;background: #555;text-transform:uppercase;font-size: 12px;width: 100px;}
+.daftar button:hover {background: #444;cursor: pointer;}
+.daftar i {margin-right: 5px;}
+.copy{color:#777;font-family: 'Open Sans';text-transform: uppercase;font-size: 11px;font-weight: 400;letter-spacing: 0.03em;line-height: 30px;margin-left: 10px}
+#top li {float: right;line-height: 40px;font-size: 12px;color: #777;font-family: 'Open Sans';margin-right: 20px;text-transform: uppercase;}
+#top li a {color: #777;text-decoration: none;-webkit-transition:all 5s ease;-moz-transition:all 5s ease;-o-transition:all 5s ease;transition:all 5s ease}
+#top li a:hover {color: #ddd;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease}
+#top .act {color: #ddd}
+::-webkit-input-placeholder{color:#555}
+:-moz-placeholder{color:#555}
+::-moz-placeholder{color:#555}
+:-ms-input-placeholder{color:#555}

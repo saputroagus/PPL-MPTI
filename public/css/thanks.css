@@ -1,0 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Oswald:100,400,300|Raleway:400,300,100,200,500,600);
+body{background:#c0392b;color:#871307;font-family:'Oswald';overflow:hidden;cursor: crosshair;}
+h1{font-size:60px;margin-top:20px;font-weight:300;text-align:center;text-transform:uppercase}
+h4{font-size:20px;letter-spacing:0.03em;font-weight:300;text-align:center;text-transform:uppercase}
+h6{font-size:15px;letter-spacing:0.03em;font-weight:300;text-align:center;text-transform:uppercase}body{margin:0;padding:0;background: #c0392b}
+hr{width:90%;border-top:1px solid #9f1b0e;border-bottom:1px solid rgba(255,255,255,.12);border-left: 0;border-right: 0}
+h6 a{color:#871307;text-decoration:none}
